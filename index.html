@@ -5,25 +5,31 @@
     
     <title>Homework 4</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    
+    <link rel="stylesheet" href="index_css.css">
 
 </head>
-<body>
+<body class = "bg-danger">
     <header>
         <nav > </nav>
     </header>
     
-    <main class = "text-white bg-danger container p-5" >
-        <h1 class = "text-center "> FIVE GUY'S RESTAURANT INFORMATION</h1>
+    <main class = "text-white container p-5" >
+        <h1 class = "text-center "> FIVE GUY'S BURGER RESTAURANT</h1>
     
-        <p class = "text-center"> "Start a business or go to college"<br> -Jerry and Janie Murrell </p>
-        <p class= "w-50 m-auto p-2 bg-dark mb-5">Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
-        Serving hand-formed, grilled burgers and fresh-cut fries cooked in peanut oil, Five Guys remains Washington, DC's favorite burger restaurant.
-        Ingrediants are always served fresh with countless toppings to choose from and free peanuts offered.
-        Today, there are about 1,463 Five Guys restaurants in the United States.
+        <p class = "text-center"> <span class = "fw-bold"> "Start a business or go to college"</span><br> -Jerry and Janie Murrell </p>
+        <p class= "w-50 m-auto p-2 bg-dark mb-5">Named after their five sons, Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
+        Serving hand-formed, grilled burgers with peanut oil cooked fries, the restaurant remains Washington, DC's favorite burger restaurant.
+        Ingredients are always served fresh with countless toppings to choose from. We also serve hotdogs and offer free peanuts!
         </p>
         
+        <div class = "row text-center mb-4">
+            <div class = "col"><img src = "/images/closeup.webp" class = "img-fluid"></div>
+            <div class = "col"><img src = "/images/triple burgers.jpg" class = "img-fluid"></div>
+            <div class = "col"><img src = "/images/meal.jpg" class = "img-fluid"></div>
+        </div>
         
+
         <article>
             <div>
                 <h1 class = "text-center"> SUPPORT FORM</h1>
@@ -51,29 +57,43 @@
 
                     <div class = "col">
                         <label> Credit Card Number</label>
-                        <input class = "form-control" placeholder = "Credit Card Number">
+                        <input class = "form-control mb-1" placeholder = "Credit Card Number">
+                        <select>
+                            <option> Mastercard</option>
+                            <option> Visa</option>
+                            <option> American Express</option>
+                        </select>
                     </div>
                 </div>
                 <br>
-                <input type = "submit" class = "btn btn-primary">
+                <div class ="text-center"><input type = "submit" class = "btn btn-success"> </div>
+                
                 </form>
             </div>
                 
         </article>
             
-            
-            
-            
-            
-            
-        
-        
-
-        
     </main>
 
-    <footer>
-        
+    <footer class = "container bg-dark text-white">
+
+        <div class = "row text-end">
+            <div class = "col text-center"></div>
+
+            <div class = "col bg-secondary">
+                <div class = "row">
+                    <div class = "col text-center bg-danger"> <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i></div>
+                    <div class = "col text-center"> gesge</div>
+                    <div class = "col text-center"> gesge</div>
+                </div>
+                
+            </div>
+            <div class = "col">Email: fiveguys@gmail.com <br>
+                Phone: 866-345-GUYS <br><br>
+                Five Guys Enterprises, LLC
+                1940 Duke St., <br> Fifth Floor, Alexandria, VA 22314 USA</div>
+
+        </div>
     </footer>
 
     <script>
