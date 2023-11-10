@@ -1,1 +1,4 @@
 a.nav-link:hover {background-color: #CF0A2B; color: white;} 
+a.nav-link{color:black;}
+/* hover background color - https://www.w3schools.com/cssref/sel_hover.php
+                         https://stackoverflow.com/questions/65040049/change-bootstrap-navbar-color-when-hover */
