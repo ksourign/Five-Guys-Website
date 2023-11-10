@@ -16,27 +16,51 @@
 
 <body class = "container" style = "background-color: #CF0A2B;">
     <header>
-        <nav > </nav>
+        <nav class = "navbar navbar-expand bg-white navbar-light fw-bold px-2">
+            <a href = "#restaurant_info" class = "navbar-brand"><img src = "images/Five_Guys_logo.svg.png" width = "160"></a> 
+            
+
+                
+                  <!-- Links -->
+                  <ul class="navbar-nav">
+                    <li>
+                      <a class="nav-link" href="#restaurant_info">Background</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#support_form">Form</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#images">Images</a>
+                      </li>
+                    <li>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                
+              
+              
+            
+        </nav>
     </header>
     
-    <main class = "text-white p-5" >
-        <h1 class = "text-center bg-dark"> FIVE GUY'S BURGER RESTAURANT</h1>
+    <main class = "text-white" >
         
-        <p class = "text-center mt-5 bg-dark w-50 m-auto"> <span class = "fw-bold"> "Start a business or go to college"</span><br> -Jerry and Janie Murrell </p>
-        <p class= "w-50 m-auto p-2 mb-5 bg-dark" style = "text-align:justify">Named after their five sons, Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
+        
+        <p class = "text-center mt-5 bg-dark w-50 m-auto pt-3"> <span class = "fw-bold"> "Start a business or go to college"</span><br> -Jerry and Janie Murrell </p>
+        <p class= "w-50 m-auto p-3 mb-5 bg-dark" style = "text-align:justify">Named after their five sons, Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
         Serving hand-formed, grilled burgers with peanut oil cooked fries, the restaurant remains Washington, DC's favorite burger restaurant.
         Ingredients are always served fresh with countless toppings to choose from. We also serve hotdogs and offer free peanuts!
         </p>
         
-        <div class = "row text-center mb-5">
+        <div class = "row text-center mb-5" id = "images">
             <div class = "col"><img src = "/images/closeup.webp" class = "img-fluid"></div>
             <div class = "col"><img src = "/images/triple burgers.jpg" class = "img-fluid"></div>
-            <div class = "col"><img src = "/images/meal.jpg" class = "img-fluid"></div>
+            <div class = "col"><img src = "images/meal2.jpg" class = "img-fluid"></div>
         </div>
-        
+        <div class = "text-center mb-5"> <img src = "images/restaurant.jpg"></div>
 
         
-            <div class = "mb-5">
+            <div class = "mb-5" id = "support_form">
                 <h2 class = "text-center"> SUPPORT FORM</h2>
                 <form>
                 <div class = "row pb-2">
@@ -63,7 +87,7 @@
                     <div class = "col">
                         <label> Credit Card Number</label>
                         <input class = "form-control mb-1" placeholder = "Credit Card Number">
-                        <select>
+                        <select class = "form-select-sm w-25">
                             <option> Mastercard</option>
                             <option> Visa</option>
                             <option> American Express</option>
@@ -76,11 +100,13 @@
                 </form>
             </div>
 
-        <footer class = "container bg-dark text-white">
+        <footer class = "container bg-dark pr-2 pt-2 pb-2" id = "contact">
                 <div class = "row align-items-center">
                     <div class = "col"></div>
 
                     <div class = "col text-center">
+                        <h2> CONTACT</h2>
+                        
                         <div class = "row my-4">
                             <div class = "col"> <i class="bi bi-facebook" style = "font-size: xx-large"></i></div>
                             <div class = "col"> <i class="bi bi-instagram" style = "font-size: xx-large"></i></div>
@@ -98,7 +124,7 @@
                     </div>
 
                     
-                    <div class = "col text-end"><span class = "fw-bold"> Email:</span> fiveguys@gmail.com <br>
+                    <div class = "col text-end"><span class = "fw-bold"> Email:</span> info@fiveguys.com <br>
                         <span class = "fw-bold">Phone:</span> 866-345-GUYS <br><br>
                         Five Guys Enterprises, <br>LLC
                         1940 Duke St., Fifth Floor, <br> Alexandria, VA 22314 USA</div>
@@ -108,8 +134,6 @@
               
     
     </main>
-    
-    
     
     
     <script>
