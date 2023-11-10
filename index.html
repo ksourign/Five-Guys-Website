@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>Homework 4</title>
+    <title>Five Guys</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="index_css.css">
+    <link rel="stylesheet" href="hw4.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
@@ -14,9 +14,9 @@
 
 
 
-<body class = "container" style = "background-color: #CF0A2B;">
-    <header>
-        <nav class = "navbar navbar-expand bg-white navbar-light fw-bold px-2 rounded-bottom-2">
+<body class = "container text-white" style = "background-color: #CF0A2B;">
+    <header class = "navbar-header mb-5 pb-5">
+        <nav class = "navbar fixed-top navbar-expand bg-white navbar-light fw-bold px-2 rounded-bottom-2" >
             <a href = "#restaurant_info" class = "navbar-brand"><img src = "images/Five_Guys_logo.svg.png" width = "160"></a> 
             
 
@@ -24,10 +24,10 @@
                   <!-- Links -->
                   <ul class="navbar-nav">
                     <li>
-                      <a class="nav-link" href="#restaurant_info">Background</a>
+                      <a class="nav-link" href="#">Background</a>
                     </li>
                     <li>
-                      <a class="nav-link" href="#support_form">Form</a>
+                      <a class="nav-link" href="#form">Form</a>
                     </li>
                     <li>
                         <a class="nav-link" href="#images">Images</a>
@@ -43,24 +43,27 @@
         </nav>
     </header>
     
-    <main class = "text-white" >
+    <main class = "pt-3">
+        
+        <div class = "pb-1" >
+            <p class = "text-center bg-white w-50 m-auto pt-4 rounded-top-2" style = "color: #CF0A2B;"> <span class = "fw-bold"> "Start a business or go to college"</span><br> -Jerry and Janie Murrell </p>
+            <p class= "w-50 m-auto px-5 pt-3 bg-white fw-bold text-black rounded-bottom-2 pb-4" style = "text-align:justify;">Named after their five sons, Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
+            Serving hand-formed, grilled burgers with peanut oil cooked fries, the restaurant remains Washington, DC's favorite burger restaurant.
+            Ingredients are always grilled fresh with countless toppings to choose from. We also serve hotdogs and offer free peanuts!
+            </p>
+        </div>
         
         
-        <p class = "text-center mt-5 bg-white w-50 m-auto pt-4 rounded-top-2" style = "color: #CF0A2B;"> <span class = "fw-bold"> "Start a business or go to college"</span><br> -Jerry and Janie Murrell </p>
-        <p class= "w-50 m-auto px-5 pt-3 pb-4 mb-5 bg-white fw-bold text-black rounded-bottom-2" style = "text-align:justify">Named after their five sons, Five Guys was first opened in 1986 in Arlington County, VA by Jerry and Janie Murrell.
-        Serving hand-formed, grilled burgers with peanut oil cooked fries, the restaurant remains Washington, DC's favorite burger restaurant.
-        Ingredients are always served fresh with countless toppings to choose from. We also serve hotdogs and offer free peanuts!
-        </p>
-        
-        <div class = "row text-center mb-5" id = "images">
+        <div id = "images" class = "pb-5 mb-4"></div>
+        <div class = "row text-center mb-5 pb-4">
             <div class = "col"><img src = "/images/closeup.webp" class = "img-fluid rounded-2"></div>
             <div class = "col"><img src = "/images/triple burgers.jpg" class = "img-fluid rounded-2"></div>
             <div class = "col"><img src = "images/meal2.jpg" class = "img-fluid rounded-2"></div>
         </div>
-        <div class = "text-center mb-5"> <img src = "images/restaurant.jpg" class = "rounded-2"></div>
+        <div class = "text-center" > <img src = "images/restaurant.jpg" class = "rounded-2"></div>
 
-        
-            <div class = "mb-5" id = "support_form">
+        <div id = "form" class = "mb-5 pb-3"></div>
+            <div class = "mb-5 pb-4">
                 <h2 class = "text-center fw-bold"> SUPPORT FORM</h2>
                 <form>
                 <div class = "row pb-2">
@@ -100,6 +103,7 @@
                 </form>
             </div>
 
+            <div class = "mb-5 text-center pb-4"><img src = "images/menu.jpg" class = "rounded-2"></div>
                     
         
         <footer class = "bg-white text-center py-2 rounded-top-2"  id = "contact" style = "color: black">
