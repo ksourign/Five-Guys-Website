@@ -4,7 +4,7 @@
 ![alt text](/README_images/navigation_bar.png) 
 - **Background of Five Guys Restaurant**<br>
 ![alt text](/README_images/restaurant_background.png) 
-- **Images of Five Guys hamburgers, restaurant, and menu**
+- **Images of Five Guys hamburgers, menu, and restaurant**
 ![alt text](/README_images/3_hamburger_images.png) 
 ![alt text](/README_images/menu.png) 
 ![alt text](/README_images/restaurant.png) 
