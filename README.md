@@ -1,4 +1,4 @@
-**The Five Guys SPA website includes the following:**<br>
+**The Five Guys SPA website features the following:**<br>
 
 - **Navigation bar** that scrolls the user to the **Background**, **Form**, **Images**, and **Contact** sections
 ![alt text](/README_images/navigation_bar.png) 
